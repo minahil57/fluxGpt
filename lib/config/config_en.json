@@ -1,0 +1,360 @@
+{
+  "HorizonLayout": [],
+  "Setting": {
+    "MainColor": "#3FC1BE",
+    "TabBarConfig": {
+      "enable": true,
+      "isSafeArea": false,
+      "color": "ff191b2e",
+      "colorCart": "fffe2060",
+      "colorIcon": "ffffffff",
+      "colorActiveIcon": "ff9bb3eb",
+      "iconSize": 24.0,
+      "indicatorStyle": "rectangular",
+      "showFloatingClip": true,
+      "showFloating": false,
+      "enableOnTop": false,
+      "enableDivider": false,
+      "radiusTopLeft": 16.0,
+      "radiusTopRight": 16.0,
+      "radiusBottomLeft": 16.0,
+      "radiusBottomRight": 16.0,
+      "paddingLeft": 0.0,
+      "paddingRight": 0.0,
+      "paddingBottom": 10.006131677365229,
+      "paddingTop": 9.960136747221199,
+      "marginTop": 0.0,
+      "marginBottom": 14.973564791065872,
+      "marginLeft": 14.976930273759336,
+      "marginRight": 15.012519286150008,
+      "boxShadow": {
+        "blurRadius": 0.0,
+        "colorOpacity": 0.0,
+        "spreadRadius": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "TabBarIndicator": {
+        "height": null,
+        "tabPosition": "bottom",
+        "topRightRadius": 8.0,
+        "topLeftRadius": 8.0,
+        "bottomRightRadius": 8.0,
+        "bottomLeftRadius": 8.0,
+        "color": "ff1f2e53",
+        "horizontalPadding": 15.0,
+        "verticalPadding": 0.0,
+        "strokeWidth": null,
+        "radius": null,
+        "distanceFromCenter": null,
+        "paintingStyle": "fill"
+      },
+      "TabBarFloating": {
+        "position": 0,
+        "radius": null,
+        "color": null,
+        "location": null,
+        "width": null,
+        "height": null,
+        "elevation": null,
+        "floatingType": "rectangle"
+      }
+    },
+    "ProductListLayout": "list"
+  },
+  "TabBar": [
+    {
+      "layout": "scrollable",
+      "icon": "home",
+      "fontFamily": "CupertinoIcons",
+      "pos": 100,
+      "defaultTab": true,
+      "key": "fm8a7z5tts"
+    },
+    {
+      "layout": "dynamic",
+      "icon": "assets/icons/tabs/icon-heartthin.png",
+      "pos": 200,
+      "visible": true,
+      "defaultTab": false,
+      "configs": {
+        "Background": {
+          "layout": "background",
+          "color": "000000",
+          "image": "https://i.imgur.com/CZAOIUc.jpeg",
+          "height": 1,
+          "key": "pmuoj7z5p7",
+          "pos": 100
+        },
+        "HorizonLayout": []
+      },
+      "menuLabel": "Home",
+      "groupLayout": true,
+      "key": "dqbfoefif4"
+    },
+    {
+      "key": "qbtl409odp",
+      "layout": "dynamic",
+      "icon": "assets/icons/tabs/icon-heartthin.png",
+      "pos": 300,
+      "defaultTab": false,
+      "configs": {
+        "HorizonLayout": [
+          {
+            "isSafeArea": true,
+            "showSearch": false,
+            "usePrimaryColor": true,
+            "borderInput": false,
+            "title": "FluxStore ChatGPT",
+            "type": "static",
+            "alignment": "centerLeft",
+            "fontWeight": 800,
+            "fontSize": 30.0,
+            "textOpacity": 1.0,
+            "marginLeft": 24.0,
+            "marginRight": 0.0,
+            "marginBottom": 0.0,
+            "marginTop": 8.0,
+            "paddingLeft": 5.0,
+            "paddingRight": 15.0,
+            "paddingTop": 0.0,
+            "paddingBottom": 0.0,
+            "height": 36.0,
+            "rotate": [],
+            "minWidth": 0.0,
+            "layout": "header_text",
+            "pos": 100
+          },
+          {
+            "isSafeArea": false,
+            "showSearch": false,
+            "usePrimaryColor": true,
+            "borderInput": false,
+            "title": "Create your own creative by smart Al tech.",
+            "textColor": "ff9e9e9e",
+            "alignment": "centerLeft",
+            "fontWeight": 300.0,
+            "fontSize": 16.0,
+            "textOpacity": 1.0,
+            "marginLeft": 24.0,
+            "marginRight": 0.0,
+            "marginBottom": 0.0,
+            "marginTop": 0.0,
+            "paddingLeft": 5.0,
+            "paddingRight": 15.0,
+            "paddingTop": 0.0,
+            "paddingBottom": 0.0,
+            "height": 44.0,
+            "rotate": [],
+            "minWidth": 0.0,
+            "layout": "header_text",
+            "pos": 200
+          },
+          {
+            "isSafeArea": false,
+            "showSearch": true,
+            "usePrimaryColor": true,
+            "borderInput": true,
+            "title": "Search Popular Prompt...",
+            "alignment": "centerLeft",
+            "fontWeight": 400,
+            "radius": 12.0,
+            "fontSize": 16.0,
+            "textOpacity": 1.0,
+            "marginLeft": 24.0,
+            "marginRight": 24.0,
+            "marginBottom": 15.0,
+            "marginTop": 15.0,
+            "paddingLeft": 5.0,
+            "paddingRight": 15.0,
+            "paddingTop": 0.0,
+            "paddingBottom": 0.0,
+            "height": 44.0,
+            "rotate": [],
+            "minWidth": 0.0,
+            "layout": "header_search",
+            "pos": 300
+          },
+          {
+            "layout": "bannerImage",
+            "design": "static",
+            "fit": "fitWidth",
+            "marginLeft": 8.0,
+            "items": [
+              {
+                "image": "https://i.imgur.com/zqD2hJp.png",
+                "showSubcategory": false,
+                "bannerWithProduct": false,
+                "defaultShowProduct": false,
+                "products": [],
+                "tab_number": "4",
+                "padding": 15.0
+              },
+              {
+                "image": "https://i.imgur.com/oatLRYw.png",
+                "showSubcategory": false,
+                "bannerWithProduct": false,
+                "defaultShowProduct": false,
+                "products": [],
+                "padding": 15.0,
+                "tab_number": "5"
+              },
+              {
+                "image": "https://i.imgur.com/uSm31Yd.png",
+                "showSubcategory": false,
+                "bannerWithProduct": false,
+                "defaultShowProduct": false,
+                "products": [],
+                "padding": 15.0,
+                "tab_number": "6"
+              }
+            ],
+            "marginBottom": 0.0,
+            "marginRight": 8.0,
+            "marginTop": 0.0,
+            "enableParallax": false,
+            "parallaxImageRatio": 1.2,
+            "isHorizontal": false,
+            "parallax": false,
+            "key": "ae2pzxc7bw",
+            "pos": 400
+          },
+          {
+            "key": "0ta3uqi6rke7p0p",
+            "name": "Prompt Guideline",
+            "image": "",
+            "layout": "twoColumn",
+            "isSnapping": false,
+            "cardDesign": "simple",
+            "category": 56,
+            "pos": 500
+          },
+          {
+            "key": "96w87g3x7j",
+            "name": "Prompt Explode",
+            "image": "",
+            "layout": "staggered",
+            "category": 57,
+            "isSnapping": false,
+            "cardDesign": "simple",
+            "limit": 20,
+            "pos": 600
+          }
+        ]
+      },
+      "menuLabel": "Home",
+      "groupLayout": true
+    },
+    {
+      "layout": "chat-gpt",
+      "icon": "text_bubble",
+      "fontFamily": "CupertinoIcons",
+      "pos": 400,
+      "defaultTab": false,
+      "key": "kinnfnw5hs",
+      "fullscreen": true
+    },
+    {
+      "layout": "image-generate",
+      "icon": "photo_on_rectangle",
+      "fontFamily": "CupertinoIcons",
+      "pos": 500,
+      "defaultTab": false,
+      "key": "h4ikohlgsi",
+      "fullscreen": true
+    },
+    {
+      "layout": "text-generate",
+      "icon": "doc_text",
+      "fontFamily": "CupertinoIcons",
+      "pos": 600,
+      "defaultTab": false,
+      "key": "r2ggvwuqdu",
+      "fullscreen": true
+    },
+    {
+      "layout": "profile",
+      "icon": "person",
+      "fontFamily": "CupertinoIcons",
+      "pos": 700,
+      "defaultTab": false,
+      "settings": [
+        "biometrics",
+        "notifications",
+        "language",
+        "darkTheme",
+        "rating",
+        "privacy",
+        "about"
+      ],
+      "subGeneralSetting": {
+        "about": {
+          "webUrl": "https://fluxstore.app",
+          "webViewMode": false,
+          "requiredLogin": false,
+          "enableForward": false,
+          "enableBackward": true,
+          "enableClose": false,
+          "script": ""
+        },
+        "privacy": {
+          "webUrl": "https://fluxbuilder.com",
+          "webViewMode": false,
+          "requiredLogin": false,
+          "enableForward": false,
+          "enableBackward": true,
+          "enableClose": false,
+          "script": ""
+        }
+      },
+      "key": "r3k87vv3mq"
+    }
+  ],
+  "Drawer": {
+    "logo": "assets/images/logo.png",
+    "subDrawerItem": {},
+    "enable": true,
+    "key": "2dfjtdjpxa",
+    "items": [
+      {
+        "show": false,
+        "type": "home"
+      },
+      {
+        "type": "blog",
+        "show": false
+      },
+      {
+        "type": "categories",
+        "show": false
+      },
+      {
+        "type": "profile",
+        "show": true
+      },
+      {
+        "show": true,
+        "type": "login"
+      },
+      {
+        "type": "category",
+        "show": false
+      }
+    ],
+    "logoConfig": {
+      "marginRight": 0,
+      "marginLeft": 17,
+      "height": 38,
+      "boxFit": "cover",
+      "marginBottom": 10,
+      "marginTop": 60
+    },
+    "safeArea": false,
+    "filter": 0
+  },
+  "AppBar": {},
+  "SplashScreen": {
+    "type": "animated",
+    "data": "assets/images/splashscreen.png"
+  }
+}

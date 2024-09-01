@@ -1,0 +1,22 @@
+targets:
+  $default:
+    builders:
+      freezed:
+        options:
+          # Options configure how source code is generated for every
+          # `@Freezed`-annotated class in the package.
+          #
+          # The default value for each is listed.
+          #
+          # The `part` option is only used when generating code for a
+          # `@Freezed`-annotated class that is not in a `*.freezed.dart` file.
+          copy_with: true
+          equals: true
+      json_serializable:
+        options:
+          # Options configure how source code is generated for every
+          # `@JsonSerializable`-annotated class in the package.
+          #
+          # The default value for each is listed.
+          any_map: false
+          explicit_to_json: true
